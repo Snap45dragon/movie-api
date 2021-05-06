@@ -9,5 +9,5 @@ urlpatterns = [
     path('register/', RegisterAPI.as_view()),
     path('register/refresh/', TokenRefreshView.as_view()),
     path('collection/', CollectionsView.as_view()),
-    path('collection/<uuid:uuid>', SingleCollectionView.as_view()),
+    path('collection/<uuid:uuid>/', SingleCollectionView.as_view()),
 ]
