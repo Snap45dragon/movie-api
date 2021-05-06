@@ -1,5 +1,5 @@
 # movie-collections-api
-A web application which allows people to create collections of movies they like. There are three parts to this:
+A web api which allows people to create collections of movies they like. There are three parts to this:
 - Users can register and authenticate with JWT token provided at first time.
 - Post-login, the users can get a list of movies and its details.
 - Post-login, the users can create collections and add movies to their collections, view, modify and delete them.
